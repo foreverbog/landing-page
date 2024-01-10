@@ -4,21 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2edd245f51.js" crossorigin="anonymous"></script>
     <title>Landing Page</title>
 </head>
 <body>
-    
-    <header>
-        <img src="images/header.jpg" alt="Kara">
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+    <div class="main-container">
+        
+        <header>
+            <h1 class="kara-header">Kara, <span class="kara-span">the Frenchie</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#idintro">Intro</a></li>
+                    <li><a href="#moviesid">Movies</a></li>
+                    <li><a href="#contactme">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
+        <div id="idintro" class="intro" >
+            <div class="intro-info">
+                <h1>Kara, the Frenchie</h1>
+                <p>Meet Kara, the charismatic French Bulldog who has stolen the hearts of audiences worldwide with his paw-sitively charming performances on the silver screen. With his sleek and compact build, Kara stands out not just for his adorable appearance but also for his undeniable talent.</p>
+                <button>Wikipedia</button>
+            </div>
+            <img class="intro-img" src="/images/Kara-hi.jpg">
+        </div>
+
+        <div id="moviesid" class="movies" >
+            <h1 class="movies-header">My Movies</h1>
+            <ul class="movies-ul">
+                <div class="movies-title">
+                    <li><img src="/images/Kara-superdog.jpg"></li>
+                    <p>Kara, the Super Frenchie</p>
+
+                </div>
+                <div class="movies-title">
+                    <li><img src="/images/Kara-disney.jpg"></li>
+                    <p>Disney Kara</p>
+
+                </div>
+                <div class="movies-title">
+                    <li><img src="/images/Kara-friends.jpg"></li>
+                    <p>Kara and his friends</p>
+
+                </div>
+                <div class="movies-title">
+                    <li><img src="images/Kara-disney2.jpg"></li>
+                    <p>Disney Kara 2</p>
+
+                </div>
             </ul>
-        </nav>
-    </header>
+        </div>
+
+        <div class="quote">
+            <p class="pquote">
+                
+"Live life with the spirited heart of a French Bulldog – embrace each moment with boundless joy, wag your tail through challenges, and always remember, the true measure of richness lies in the love you share."</p>
+            <p class="p2">-Kara, the Frenchie</p>
+        </div>
+
+        <div class="contact">
+            <div class="contact-box">
+                <div class="contact-info">
+                    <h1>Stay up to date with Kara</h1>
+                    <p>Sign up for the latest informations right now</p>
+                </div>
+                <div class="button">
+                    <button>Sign Up</button>
+                </div>
+                
+            </div>
+            <div id="contactme" class="contact-icons">
+                
+                <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://discord.com" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+                
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>Copyright © The Odin Project </p>
+
+        </footer>
+    </div>
+
+    
 
     
     
